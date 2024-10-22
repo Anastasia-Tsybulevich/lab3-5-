@@ -1,0 +1,110 @@
+body {
+    background: linear-gradient(to right, #ff66b2, #333); /* Градиентный фон */
+    color: white; /* Цвет текста */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #222; /* Цвет навигационного меню */
+    padding: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline; /* Горизонтальное отображение меню */
+    margin-right: 20px;
+}
+
+nav a {
+    color: #ff66b2; /* Цвет текста ссылок */
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #fff; /* Цвет ссылки при наведении */
+}
+
+.info {
+    margin: 20px; /* Отступ вокруг блока информации */
+}
+
+.first-letter {
+    color: #f3b4e0; /* Цвет первой буквы */
+    font-size: 2em; /* Увеличение размера первой буквы */
+}
+
+.hobbies {
+    margin: 20px; /* Отступ вокруг раздела хобби */
+}
+
+.hobbies ul {
+    list-style-type: none;
+}
+
+.hobbies li {
+    margin-bottom: 20px; /* Отступ между хобби */
+}
+
+.hobbies img {
+    width: 200px; /* Ширина изображений */
+    margin: 10px; /* Отступы вокруг изображений */
+    border-radius: 10px; /* Скругление углов изображений */
+}
+
+.gallery {
+    display: flex; /* Гибкое отображение для галереи */
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 150px; /* Ширина изображений в галерее */
+    margin: 10px; /* Отступы вокруг изображений */
+    border-radius: 10px; /* Скругление углов изображений */
+}
+
+.social-links {
+    margin: 20px; /* Отступ вокруг блока с социальными ссылками */
+}
+
+.social-links ul {
+    list-style-type: none;
+}
+
+.social-links li {
+    margin-bottom: 5px; /* Отступ между ссылками */
+}
+
+table {
+    width: 100%; /* Ширина таблицы */
+    border-collapse: collapse; /* Убираем двойные границы */
+    margin: 20px 0; /* Отступ сверху и снизу таблицы */
+}
+
+th, td {
+    padding: 10px; /* Отступ внутри ячеек */
+    text-align: left; /* Выравнивание текста */
+    border: 1px solid #fff; /* Граница ячеек */
+}
+
+th {
+    background-color: #444; /* Цвет заголовков таблицы */
+}
+
+/* Стилизация ссылок для социальных сетей */
+.social-links a {
+    color: blue; /* Цвет не посещенной ссылки */
+}
+
+.social-links a:visited {
+    color: gray; /* Цвет посещенной ссылки */
+}
+
+.social-links a:hover {
+    color: red; /* Цвет ссылки при наведении */
+}
